@@ -1,0 +1,29 @@
+<h3>Test Portal</h3>
+
+<div >
+    <ul *ngFor="let u of users">
+        <li>{{u.que}}</li>
+        <input type="radio" id="option1" name="option1" value="">
+        <label for="option1">{{u.option1}}</label><br>
+        <input type="radio" id="option2" name="option2" value="">
+        <label for="option2">{{u.option2}}</label><br>
+        <input type="radio" id="option3" name="option3" value="">
+        <label for="option3">{{u.option3}}</label><br>
+        <input type="radio" id="option4" name="option4" value="">
+        <label for="option4">{{u.option4}}</label><br>
+    </ul>
+    <input type="submit" name="Submit">
+</div>
+<!--<table>
+    <tr>
+        <th>id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr *ngFor="let u of users">
+
+            <td>{{u.id}}</td>
+            <td>{{u.fname}}</td>
+            <td>{{u.lname}}</td>
+    </tr>
+</table>-->
